@@ -1,0 +1,6 @@
+INFO	2024-01-25 16:27:46,966	0	org.example.Main	[main]	Attempting to add a game.Mario, 2020, run and jump, true
+INFO	2024-01-25 16:27:48,359	1393	org.example.Main	[main]	Now retrieving all games: [Game{title='Mario', releaseYear='2020', description='run and jump', formatDigital='true'}]
+INFO	2024-01-26 12:32:32,541	0	org.example.Main	[main]	Attempting to add a game.mario, 2020, run and jump, true
+INFO	2024-01-26 12:32:34,915	2374	org.example.Main	[main]	Now retrieving all games: [Game{title='mario', releaseYear='2020', description='run and jump', formatDigital='true'}]
+INFO	2024-01-26 13:01:08,730	1	org.example.Main	[main]	Attempting to add a game.Mario, 2023, Run and jump, true
+INFO	2024-01-26 13:01:11,795	3066	org.example.Main	[main]	Now retrieving all games: [Game{title='Mario', releaseYear='2023', description='Run and jump', formatDigital='true'}]
