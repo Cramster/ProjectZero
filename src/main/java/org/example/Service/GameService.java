@@ -16,7 +16,7 @@ public class GameService {
     public void addGame(String title, int releaseYear, String description, boolean formatDigital) throws GameException {
     Main.log.info("Attempting to add a game." + title +", " + releaseYear +", " + description +", " + formatDigital);
 
-       if (releaseYear < 1500 || releaseYear >= 2025){
+       if (releaseYear < 1800 || releaseYear >= 2025){
            throw new GameException("Release year must be in XXXX format");
        } else if (title.length()<1) {
            throw new GameException("Please enter a valid title");

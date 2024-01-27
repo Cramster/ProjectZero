@@ -15,6 +15,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         CLIParser cliParser = new CLIParser();
 
+
         System.out.println("** Welcome to Project Zero: A Horizon Tale **\nCommence project:");
 
         while(true){
