@@ -1,4 +1,6 @@
 package org.example.Model;
+import org.example.Service.GameService;
+import org.example.Main;
 
 public class Game {
     private String title;

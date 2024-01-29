@@ -18,7 +18,8 @@ public class CLIParser {
             interpretAddAction();
         } else if (command.equals("list")) {
             interpretListAction();
-            //return command; and return the other interpret actions but must be public String
+        } else if (command.equals("search")) {
+            interpretSearchAction();
         } else {
             throw new CLIException("Try a valid command..");
         }
@@ -40,18 +41,32 @@ public class CLIParser {
         System.out.println("Is this a digital game? (yes/no)");
         String formatDigitalInputString = sc.nextLine();
         boolean boolFormatDigital = Boolean.parseBoolean(formatDigitalInputString);{
-            if (formatDigitalInputString.equals("yes")) {
+            if (formatDigitalInputString.equals("yes")){
                 boolFormatDigital = true; }
-            else boolFormatDigital = false;
+            else if (formatDigitalInputString.equals("no")){
+                boolFormatDigital = false; }
+            else System.out.println ("Later you can update to 'yes' for digital or 'no' for physical");
         }
 
         gameService.addGame(titleInput, numReleaseYear, descriptionInput, boolFormatDigital);
         System.out.println("Game added!");
     }
 
-    public void interpretListAction(){
+    public void interpretListAction() {
         List<Game> games = gameService.getAllGame();
         System.out.println("Here are your games: " + games.toString());
+    }
+
+    public void interpretSearchAction() {
+        Scanner sc = new Scanner(System.in);
+        String titleInput = sc.nextLine();
+        Game matchingGame = gameService.getGameByTitle(titleInput);
+        if (matchingGame == null) {
+            System.out.println("There were no matches found.");
+        }
+        else {
+            System.out.println("Here are your match(es): "+matchingGame.toString());
+        }
     }
 }
 

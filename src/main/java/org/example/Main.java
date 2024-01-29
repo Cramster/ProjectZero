@@ -15,11 +15,10 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         CLIParser cliParser = new CLIParser();
 
-
-        System.out.println("** Welcome to Project Zero: A Horizon Tale **\nCommence project:");
+        System.out.println("** Welcome to Project Zero: A Game Service **\nCommence project:");
 
         while(true){
-            System.out.println("Choose to 'add' or 'list':");
+            System.out.println("Enter: 'add', 'list', or 'search':");
             String input = sc.nextLine();
             try {
                 cliParser.parseCommandReturnOutput(input);

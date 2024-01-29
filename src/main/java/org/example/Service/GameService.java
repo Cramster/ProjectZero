@@ -18,7 +18,7 @@ public class GameService {
 
        if (releaseYear < 1800 || releaseYear >= 2025){
            throw new GameException("Release year must be in XXXX format");
-       } else if (title.length()<1) {
+       } else if (title.length()<1){
            throw new GameException("Please enter a valid title");
        }
 
@@ -26,8 +26,20 @@ public class GameService {
        games.add(g);
     }
 
+    //List function
     public List<Game> getAllGame(){
         Main.log.info("Now retrieving all games: "+games);
         return games;
+    }
+
+    //Search function
+    public Game getGameByTitle(String title) {
+        for (int i = 0; i < games.size(); i=i+1) {
+            Game currentGame = games.get(i);
+            if (currentGame.getTitle().contains(title)) {
+                return currentGame;
+            }
+        }
+        return null;
     }
 }
