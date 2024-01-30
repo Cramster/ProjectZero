@@ -40,13 +40,15 @@ public class CLIParser {
 
         System.out.println("Is this a digital game? (yes/no)");
         String formatDigitalInputString = sc.nextLine();
-        boolean boolFormatDigital = Boolean.parseBoolean(formatDigitalInputString);{
+        boolean boolFormatDigital = false;
             if (formatDigitalInputString.equals("yes")){
                 boolFormatDigital = true; }
             else if (formatDigitalInputString.equals("no")){
-                boolFormatDigital = false; }
-            else System.out.println ("Later you can update to 'yes' for digital or 'no' for physical");
-        }
+                ; }
+            else {
+                System.out.println ("Please enter 'yes' or 'no'");
+                return;
+            }
 
         gameService.addGame(titleInput, numReleaseYear, descriptionInput, boolFormatDigital);
         System.out.println("Game added!");

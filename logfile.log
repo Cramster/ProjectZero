@@ -131,3 +131,26 @@ INFO	2024-01-29 15:51:14,041	0	org.example.Main	[main]	Attempting to add a game.
 INFO	2024-01-29 15:51:25,494	11453	org.example.Main	[main]	Attempting to add a game.mario, 2020, , true
 INFO	2024-01-29 15:51:31,696	17655	org.example.Main	[main]	Attempting to add a game.zelda, 2019, , false
 INFO	2024-01-29 15:51:35,403	21362	org.example.Main	[main]	Now retrieving all games: [Game{title='mario', releaseYear='2020', description='', formatDigital='true'}]
+INFO	2024-01-29 15:52:33,917	0	org.example.Main	[main]	Attempting to add a game.mario, 2020, , true
+INFO	2024-01-29 15:52:39,072	5155	org.example.Main	[main]	Attempting to add a game.zelda, 2018, , false
+INFO	2024-01-29 15:52:40,609	6692	org.example.Main	[main]	Now retrieving all games: [Game{title='mario', releaseYear='2020', description='', formatDigital='true'}, Game{title='zelda', releaseYear='2018', description='', formatDigital='false'}]
+INFO	2024-01-29 15:53:05,142	31225	org.example.Main	[main]	Attempting to add a game.mario, 2020, , false
+INFO	2024-01-30 09:02:03,530	0	org.example.Main	[main]	Attempting to add a game.mario, 2020, run, true
+INFO	2024-01-30 09:02:15,844	12314	org.example.Main	[main]	Attempting to add a game.zelda, 2019, sword, false
+INFO	2024-01-30 09:02:22,882	19352	org.example.Main	[main]	Now retrieving all games: [Game{title='mario', releaseYear='2020', description='run', formatDigital='true'}, Game{title='zelda', releaseYear='2019', description='sword', formatDigital='false'}]
+INFO	2024-01-30 11:46:43,191	0	org.example.Main	[main]	Attempting to add a game.mario, 2020, run and jump, true
+INFO	2024-01-30 11:46:55,764	12573	org.example.Main	[main]	Attempting to add a game.zelda, 2018, sword and shield, false
+INFO	2024-01-30 11:46:57,289	14098	org.example.Main	[main]	Now retrieving all games: [Game{title='mario', releaseYear='2020', description='run and jump', formatDigital='true'}, Game{title='zelda', releaseYear='2018', description='sword and shield', formatDigital='false'}]
+INFO	2024-01-30 11:48:45,656	122465	org.example.Main	[main]	Attempting to add a game.mario, 2020, , false
+INFO	2024-01-30 11:48:56,385	133194	org.example.Main	[main]	Now retrieving all games: [Game{title='mario', releaseYear='2020', description='run and jump', formatDigital='true'}, Game{title='zelda', releaseYear='2018', description='sword and shield', formatDigital='false'}, Game{title='mario', releaseYear='2020', description='', formatDigital='false'}]
+INFO	2024-01-30 11:49:36,240	173049	org.example.Main	[main]	Attempting to add a game.zelda, 2020, , false
+INFO	2024-01-30 11:52:40,461	0	org.example.Main	[main]	Attempting to add a game.mario, 2020, run, false
+INFO	2024-01-30 11:52:46,075	5614	org.example.Main	[main]	Now retrieving all games: [Game{title='mario', releaseYear='2020', description='run', formatDigital='false'}]
+INFO	2024-01-30 11:53:30,154	49693	org.example.Main	[main]	Attempting to add a game.mario, 2019, , false
+INFO	2024-01-30 11:53:31,743	51282	org.example.Main	[main]	Now retrieving all games: [Game{title='mario', releaseYear='2020', description='run', formatDigital='false'}, Game{title='mario', releaseYear='2019', description='', formatDigital='false'}]
+INFO	2024-01-30 11:55:43,864	0	org.example.Main	[main]	Attempting to add a game.mario, 2020, , true
+INFO	2024-01-30 11:55:49,684	5820	org.example.Main	[main]	Attempting to add a game.zelda, 2019, , false
+INFO	2024-01-30 11:55:50,651	6787	org.example.Main	[main]	Now retrieving all games: [Game{title='mario', releaseYear='2020', description='', formatDigital='true'}, Game{title='zelda', releaseYear='2019', description='', formatDigital='false'}]
+INFO	2024-01-30 11:58:50,848	0	org.example.Main	[main]	Attempting to add a game.mario, 2020, run, true
+INFO	2024-01-30 11:58:57,631	6783	org.example.Main	[main]	Attempting to add a game.zelda, 2018, sword, false
+INFO	2024-01-30 11:58:58,457	7609	org.example.Main	[main]	Now retrieving all games: [Game{title='mario', releaseYear='2020', description='run', formatDigital='true'}, Game{title='zelda', releaseYear='2018', description='sword', formatDigital='false'}]
