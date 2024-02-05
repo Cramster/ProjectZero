@@ -31,6 +31,7 @@ public class CLIParser {
         System.out.println("Enter game title");
         String titleInput = sc.nextLine();
 
+
         System.out.println("Enter game release year (XXXX format)");
         String releaseYearInputString = sc.nextLine();
         int numReleaseYear = Integer.parseInt(releaseYearInputString);

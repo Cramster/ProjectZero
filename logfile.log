@@ -154,3 +154,4 @@ INFO	2024-01-30 11:55:50,651	6787	org.example.Main	[main]	Now retrieving all gam
 INFO	2024-01-30 11:58:50,848	0	org.example.Main	[main]	Attempting to add a game.mario, 2020, run, true
 INFO	2024-01-30 11:58:57,631	6783	org.example.Main	[main]	Attempting to add a game.zelda, 2018, sword, false
 INFO	2024-01-30 11:58:58,457	7609	org.example.Main	[main]	Now retrieving all games: [Game{title='mario', releaseYear='2020', description='run', formatDigital='true'}, Game{title='zelda', releaseYear='2018', description='sword', formatDigital='false'}]
+INFO	2024-02-04 17:16:04,423	0	org.example.Main	[main]	Attempting to add a game., 2000, , false

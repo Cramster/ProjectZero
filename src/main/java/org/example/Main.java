@@ -9,6 +9,7 @@ import org.slf4j.LoggerFactory;
 import java.util.Scanner;
 
 public class Main {
+
     public static Logger log = LoggerFactory.getLogger(Main.class);
     public static void main(String[] args) {
 
@@ -17,7 +18,7 @@ public class Main {
 
         System.out.println("** Welcome to Project Zero: A Game Service **\nCommence project:");
 
-        while(true){
+        while(true) {
             System.out.println("Enter: 'add', 'list', or 'search':");
             String input = sc.nextLine();
             try {
@@ -29,6 +30,7 @@ public class Main {
                 System.out.println(exception.getMessage());
                 exception.printStackTrace();
             }
+
         }
 
     }
